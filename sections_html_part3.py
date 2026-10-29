@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Fleetsure Sections 10-14, Footer & Modals HTML
+Fleetsure Sections 10-14, Footer & Modals HTML (Streamlined & Clean)
 """
 
 def get_views_html(C):
@@ -19,29 +19,25 @@ def get_views_html(C):
         <p class="prose-760">{content}</p>
       </div>
 
-      <div style="font-size:13px; font-weight:700; color:var(--brand-light); text-transform:uppercase; letter-spacing:0.06em; margin-bottom:12px;">
-        {panel_label}
-      </div>
-
-      <!-- 2 x 2 Dashboard Grid -->
+      <!-- 2 x 2 Dashboard Grid: Simple & High Clarity -->
       <div class="dashboard-2x2-grid">
         <!-- Panel 1: Fleet Status -->
         <div class="dash-panel">
           <div class="dash-panel-header">
             <span>Fleet-Wide Compliance Health</span>
-            <span class="example-data-tag">All Locations</span>
+            <span class="example-data-tag">All Depots</span>
           </div>
           <div class="dash-panel-body">
-            <div style="font-size:26px; font-weight:800; color:#34D399; margin-bottom:4px;">97.3% Valid</div>
-            <div style="font-size:12.5px; color:var(--muted); margin-bottom:14px;">136 out of 148 fleet assets active and road-legal today.</div>
-            <div style="display:flex; flex-direction:column; gap:6px; font-size:12px;">
-              <div style="display:flex; justify-content:space-between; padding:6px 10px; background:var(--surface); border-radius:4px;">
+            <div style="font-size:28px; font-weight:800; color:#34D399; margin-bottom:4px;">97.3% Valid</div>
+            <div style="font-size:13.5px; color:var(--text); margin-bottom:16px;">136 out of 148 fleet vehicles active and 100% legal on the road today.</div>
+            <div style="display:flex; flex-direction:column; gap:8px; font-size:13px;">
+              <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px;">
                 <span>Owned Fleet (104 vehicles)</span>
-                <span style="color:#34D399; font-weight:600;">99.0% Compliant</span>
+                <span style="color:#34D399; font-weight:700;">99.0% Compliant</span>
               </div>
-              <div style="display:flex; justify-content:space-between; padding:6px 10px; background:var(--surface); border-radius:4px;">
+              <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px;">
                 <span>Vendor &amp; Leased (44 vehicles)</span>
-                <span style="color:#FBBF24; font-weight:600;">93.2% Compliant</span>
+                <span style="color:#FBBF24; font-weight:700;">93.2% Compliant</span>
               </div>
             </div>
           </div>
@@ -54,16 +50,16 @@ def get_views_html(C):
             <span class="example-data-tag">30 &middot; 15 &middot; 7 Days</span>
           </div>
           <div class="dash-panel-body">
-            <div style="font-size:26px; font-weight:800; color:#FBBF24; margin-bottom:4px;">8 Reminders Active</div>
-            <div style="font-size:12.5px; color:var(--muted); margin-bottom:14px;">4 expiring within 7 days &middot; Renewal workflows staged.</div>
-            <div style="display:flex; flex-direction:column; gap:6px; font-size:12px;">
-              <div style="display:flex; justify-content:space-between; padding:6px 10px; background:var(--surface); border-radius:4px;">
-                <span>MH-12-RN-4821 (Insurance)</span>
-                <span style="color:#F87171; font-weight:600;">7 Days Remaining</span>
+            <div style="font-size:28px; font-weight:800; color:#FBBF24; margin-bottom:4px;">8 Reminders Active</div>
+            <div style="font-size:13.5px; color:var(--text); margin-bottom:16px;">Alerts already sent to depot leads. Renewals handled ahead of time.</div>
+            <div style="display:flex; flex-direction:column; gap:8px; font-size:13px;">
+              <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px;">
+                <span>MH-12-RN-4821 (Commercial Insurance)</span>
+                <span style="color:#F87171; font-weight:700;">7 Days Left</span>
               </div>
-              <div style="display:flex; justify-content:space-between; padding:6px 10px; background:var(--surface); border-radius:4px;">
+              <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px;">
                 <span>DL-01-AX-9942 (PUC Certificate)</span>
-                <span style="color:#FBBF24; font-weight:600;">12 Days Remaining</span>
+                <span style="color:#FBBF24; font-weight:700;">12 Days Left</span>
               </div>
             </div>
           </div>
@@ -72,69 +68,69 @@ def get_views_html(C):
         <!-- Panel 3: Challans by State -->
         <div class="dash-panel">
           <div class="dash-panel-header">
-            <span>Interstate Challan Pool</span>
-            <span class="example-data-tag">By Jurisdiction</span>
+            <span>Interstate Challans</span>
+            <span class="example-data-tag">Grouped By State</span>
           </div>
           <div class="dash-panel-body">
-            <div style="font-size:26px; font-weight:800; color:#F87171; margin-bottom:4px;">₹38,500 Total</div>
-            <div style="font-size:12.5px; color:var(--muted); margin-bottom:14px;">14 total infractions tracked across 4 state databases.</div>
-            <div style="display:flex; flex-direction:column; gap:6px; font-size:12px;">
-              <div style="display:flex; justify-content:space-between; padding:6px 10px; background:var(--surface); border-radius:4px;">
-                <span>Maharashtra (6 challans)</span>
+            <div style="font-size:28px; font-weight:800; color:#F87171; margin-bottom:4px;">₹38,500 Total</div>
+            <div style="font-size:13.5px; color:var(--text); margin-bottom:16px;">Fines caught early across states before late fees and court penalties.</div>
+            <div style="display:flex; flex-direction:column; gap:8px; font-size:13px;">
+              <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px;">
+                <span>Maharashtra Highways (6 challans)</span>
                 <span style="color:#F87171; font-weight:700;">₹14,500</span>
               </div>
-              <div style="display:flex; justify-content:space-between; padding:6px 10px; background:var(--surface); border-radius:4px;">
-                <span>Karnataka (3 challans)</span>
+              <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px;">
+                <span>Karnataka Border (3 challans)</span>
                 <span style="color:#F87171; font-weight:700;">₹11,000</span>
               </div>
             </div>
           </div>
         </div>
 
-        <!-- Panel 4: Document Storage & Audit History -->
+        <!-- Panel 4: Document Storage & History -->
         <div class="dash-panel">
           <div class="dash-panel-header">
-            <span>Secure Storage &amp; Audit History</span>
-            <span class="example-data-tag">Ready for Inspection</span>
+            <span>Government Checks &amp; Audit Vault</span>
+            <span class="example-data-tag">Audit Ready</span>
           </div>
           <div class="dash-panel-body">
-            <div style="font-size:26px; font-weight:800; color:var(--brand-light); margin-bottom:4px;">100% Verified</div>
-            <div style="font-size:12.5px; color:var(--muted); margin-bottom:14px;">Every document authenticated against government records.</div>
-            <div style="display:flex; flex-direction:column; gap:6px; font-size:12px;">
-              <div style="display:flex; justify-content:space-between; padding:6px 10px; background:var(--surface); border-radius:4px;">
-                <span>Registration (RC) Verification</span>
-                <span style="color:#34D399; font-weight:600;">VAHAN Validated</span>
+            <div style="font-size:28px; font-weight:800; color:var(--brand-light); margin-bottom:4px;">100% Verified</div>
+            <div style="font-size:13.5px; color:var(--text); margin-bottom:16px;">Every document authenticated against government records.</div>
+            <div style="display:flex; flex-direction:column; gap:8px; font-size:13px;">
+              <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px;">
+                <span>Vehicle Registrations (RC)</span>
+                <span style="color:#34D399; font-weight:700;">VAHAN Verified</span>
               </div>
-              <div style="display:flex; justify-content:space-between; padding:6px 10px; background:var(--surface); border-radius:4px;">
+              <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px;">
                 <span>Driver Licences (DL)</span>
-                <span style="color:#34D399; font-weight:600;">Sarathi Validated</span>
+                <span style="color:#34D399; font-weight:700;">Sarathi Verified</span>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- 4 Dashboard Metric Highlights -->
+      <!-- 4 High-Level Metric Cards -->
       <div class="dashboard-metrics-strip">
         <div class="metric-panel-card">
           <div class="metric-panel-title">Fleet Compliance Rate</div>
           <div class="metric-panel-val" style="color:var(--accent-green);">97.3%</div>
-          <div class="metric-panel-desc">Road-legal across all operational states</div>
+          <div class="metric-panel-desc">Road-legal across all states</div>
         </div>
         <div class="metric-panel-card">
           <div class="metric-panel-title">Active Depots</div>
           <div class="metric-panel-val">5 Hubs</div>
-          <div class="metric-panel-desc">Pune, Mumbai, Delhi NCR, BLR, Chennai</div>
+          <div class="metric-panel-desc">Pune, Mumbai, Delhi, BLR, Chennai</div>
         </div>
         <div class="metric-panel-card">
-          <div class="metric-panel-title">Critical Expiries (&lt;7d)</div>
-          <div class="metric-panel-val" style="color:#F59E0B;">4 Staged</div>
-          <div class="metric-panel-desc">Alerts dispatched via WhatsApp &amp; Email</div>
+          <div class="metric-panel-title">Early Alerts</div>
+          <div class="metric-panel-val" style="color:#F59E0B;">30 &middot; 15 &middot; 7d</div>
+          <div class="metric-panel-desc">Dispatched via WhatsApp &amp; Email</div>
         </div>
         <div class="metric-panel-card">
-          <div class="metric-panel-title">Hardware Required</div>
+          <div class="metric-panel-title">Vehicle Hardware</div>
           <div class="metric-panel-val" style="color:var(--brand-light);">Zero</div>
-          <div class="metric-panel-desc">No sensors or OBD units fitted to trucks</div>
+          <div class="metric-panel-desc">No tracking devices or OBD units</div>
         </div>
       </div>
     </div>
@@ -165,22 +161,18 @@ def get_compare_html(C):
           <div>
             <h3>{c1_h}</h3>
             <p>{c1_c}</p>
-            <ul style="list-style:none; margin-top:20px; display:flex; flex-direction:column; gap:10px; font-size:14px; color:var(--muted);">
+            <ul style="list-style:none; margin-top:20px; display:flex; flex-direction:column; gap:12px; font-size:14px; color:var(--muted);">
               <li style="display:flex; align-items:center; gap:8px;">
                 <span style="color:#EF4444;"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg></span>
-                Hardware required on every vehicle
+                Needs hardware fitted to every vehicle
               </li>
               <li style="display:flex; align-items:center; gap:8px;">
                 <span style="color:#EF4444;"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg></span>
-                Multi-month telematics rollout
+                Months of rollout and fleet disruption
               </li>
               <li style="display:flex; align-items:center; gap:8px;">
                 <span style="color:#EF4444;"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg></span>
-                Document compliance is an afterthought module
-              </li>
-              <li style="display:flex; align-items:center; gap:8px;">
-                <span style="color:#EF4444;"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12"></path></svg></span>
-                Fragmented state challan tracking
+                Document compliance is just an afterthought module
               </li>
             </ul>
           </div>
@@ -192,22 +184,18 @@ def get_compare_html(C):
           <div>
             <h3 style="color:var(--heading);">{c2_h}</h3>
             <p style="color:#E2E8F0;">{c2_c}</p>
-            <ul style="list-style:none; margin-top:20px; display:flex; flex-direction:column; gap:10px; font-size:14px; color:#F1F5F9;">
+            <ul style="list-style:none; margin-top:20px; display:flex; flex-direction:column; gap:12px; font-size:14px; color:#F1F5F9;">
               <li style="display:flex; align-items:center; gap:8px;">
                 <span style="color:#10B981;"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg></span>
-                Zero hardware to fit &mdash; purely software &amp; AI
+                Zero hardware &mdash; 100% software &amp; AI agents
               </li>
               <li style="display:flex; align-items:center; gap:8px;">
                 <span style="color:#10B981;"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg></span>
-                Rapid go-live: upload spreadsheets, set alert rules, switch on
+                Go live today: upload documents, set alert rules, switch on
               </li>
               <li style="display:flex; align-items:center; gap:8px;">
                 <span style="color:#10B981;"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg></span>
-                Autonomous agents tracking validity &amp; government records 24/7
-              </li>
-              <li style="display:flex; align-items:center; gap:8px;">
-                <span style="color:#10B981;"><svg width="16" height="16" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"></path></svg></span>
-                Centralized nationwide challan pool for owned and leased fleets
+                Challans tracked across every state on one screen
               </li>
             </ul>
           </div>
@@ -243,7 +231,7 @@ def get_included_html(C):
        ========================================================================= -->
   <section class="included-section" id="included">
     <div class="container">
-      <div class="section-header">
+      <div class="section-header text-center prose-760" style="margin:0 auto 36px;">
         <h2>{h2}</h2>
       </div>
 
@@ -382,7 +370,7 @@ def get_final_cta_html(C):
 
     return f"""
   <!-- =======================================================================
-       14. FINAL CTA SECTION
+       14. FINAL CTA SECTION (Site finishes cleanly here)
        ========================================================================= -->
   <section class="closing-band" id="contact">
     <div class="container prose-680">
@@ -397,88 +385,14 @@ def get_final_cta_html(C):
     """
 
 def get_footer_html(C):
-    meta_desc = C['SEO SETUP']['Meta description']['content']
-    guard = C['SEO SETUP']['Positioning guard']['content']
-
-    return f"""
-  <!-- =======================================================================
-       SITE FOOTER
-       ========================================================================= -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <!-- Col 1: Brand Info -->
-        <div>
-          <div class="header-brand" style="margin-bottom:12px;">
-            <div class="brand-logo-icon">
-              <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1m-6-1a1 1 0 001 1h1M5 17a2 2 0 104 0m-4 0a2 2 0 114 0m6 0a2 2 0 104 0m-4 0a2 2 0 114 0"></path></svg>
-            </div>
-            <span class="brand-product">Fleetsure</span>
-            <span class="brand-badge">by AIQoD</span>
-          </div>
-          <p class="footer-desc">{meta_desc}</p>
-          <div class="positioning-guard-pill">
-            <strong style="color:var(--heading);">Notice:</strong> {guard}
-          </div>
-        </div>
-
-        <!-- Col 2: Navigation -->
-        <div class="footer-col">
-          <h4>Product</h4>
-          <ul>
-            <li><a href="#problem">The Problem</a></li>
-            <li><a href="#the-shift">The Shift</a></li>
-            <li><a href="#how-it-works">How It Works</a></li>
-            <li><a href="#fleet-at-a-glance">Fleet View</a></li>
-            <li><a href="#three-teams">For Teams</a></li>
-            <li><a href="#expiry-alerts">Expiry Alerts</a></li>
-            <li><a href="#challans">Challan Management</a></li>
-          </ul>
-        </div>
-
-        <!-- Col 3: Platform & Docs -->
-        <div class="footer-col">
-          <h4>Platform</h4>
-          <ul>
-            <li><a href="/platform">AIQoD Platform</a></li>
-            <li><a href="#integrations">System Integrations</a></li>
-            <li><a href="#compliance-vs-gps">Fleetsure vs GPS</a></li>
-            <li><a href="#included">What is Included</a></li>
-            <li><a href="#faq">FAQ</a></li>
-          </ul>
-        </div>
-
-        <!-- Col 4: Contact & Demo -->
-        <div class="footer-col">
-          <h4>Connect</h4>
-          <ul>
-            <li><a href="javascript:void(0)" onclick="openDemoModal()">Book 20-Min Demo</a></li>
-            <li><a href="/contact-us">Contact Us</a></li>
-            <li><a href="mailto:support@aiqod.com">support@aiqod.com</a></li>
-            <li><a href="https://aiqod.com">aiqod.com</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <!-- Bottom Bar -->
-      <div class="footer-bottom">
-        <div>&copy; 2026 AIQoD Inc. All rights reserved. Fleetsure is an AIQoD Enterprise Platform solution.</div>
-        <div style="display:flex; gap:20px;">
-          <a href="/privacy" style="color:var(--muted); text-decoration:none;">Privacy Policy</a>
-          <a href="/terms" style="color:var(--muted); text-decoration:none;">Terms of Service</a>
-          <a href="/security" style="color:var(--muted); text-decoration:none;">Security &amp; Compliance</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-    """
+    # Completely removed per user request
+    return ""
 
 def get_modals_html():
     return """
   <!-- =======================================================================
-       INTERACTIVE MODALS
+       INTERACTIVE DEMO MODAL
        ========================================================================= -->
-  <!-- 1. Demo Booking Modal -->
   <div class="modal-backdrop" id="demo-modal" onclick="closeModalOnBackdrop(event, 'demo-modal')">
     <div class="modal-card">
       <div class="modal-header">
@@ -518,50 +432,6 @@ def get_modals_html():
             No hardware to fit. Upload, set alert rules, and switch on.
           </div>
         </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- 2. Vehicle Detail Inspection Drawer Modal -->
-  <div class="modal-backdrop" id="vehicle-modal" onclick="closeModalOnBackdrop(event, 'vehicle-modal')">
-    <div class="modal-card" style="max-width:580px;">
-      <div class="modal-header">
-        <div>
-          <h3 id="veh-modal-id">MH-12-RN-4821</h3>
-          <span style="font-size:12px; color:var(--muted);" id="veh-modal-sub">Pune North Depot &middot; 32ft Container</span>
-        </div>
-        <button class="modal-close-btn" onclick="closeVehicleModal()">&times;</button>
-      </div>
-      <div class="modal-body">
-        <div style="font-size:13px; font-weight:700; color:var(--heading); margin-bottom:12px;">Tracked Document Status:</div>
-        <div style="display:flex; flex-direction:column; gap:8px; font-size:12.5px; margin-bottom:20px;">
-          <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px; border:1px solid var(--line);">
-            <span>Registration Certificate (RC)</span>
-            <span id="veh-rc-val" class="status-pill valid">&bull; Valid</span>
-          </div>
-          <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px; border:1px solid var(--line);">
-            <span>Commercial Insurance</span>
-            <span id="veh-ins-val" class="status-pill expiring">&bull; Expiring (7d)</span>
-          </div>
-          <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px; border:1px solid var(--line);">
-            <span>Pollution Under Control (PUC)</span>
-            <span id="veh-puc-val" class="status-pill valid">&bull; Valid</span>
-          </div>
-          <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px; border:1px solid var(--line);">
-            <span>Road Tax Payment</span>
-            <span id="veh-tax-val" class="status-pill valid">&bull; Valid</span>
-          </div>
-          <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px; border:1px solid var(--line);">
-            <span>Driver Commercial DL</span>
-            <span id="veh-dl-val" class="status-pill valid">&bull; Valid</span>
-          </div>
-        </div>
-
-        <div style="font-size:13px; font-weight:700; color:var(--heading); margin-bottom:8px;">Pending Interstate Challans:</div>
-        <div style="padding:10px 14px; background:rgba(239, 68, 68, 0.08); border:1px solid rgba(239, 68, 68, 0.2); border-radius:6px; display:flex; justify-content:space-between; align-items:center; font-size:12.5px;">
-          <span id="veh-challan-val">₹1,500 (1 pending - NH-48 Camera)</span>
-          <button class="btn btn-sm btn-outline" onclick="alert('Simulation: Settle fine via direct e-Challan gateway.')">Pay Online</button>
-        </div>
       </div>
     </div>
   </div>

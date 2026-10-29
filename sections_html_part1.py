@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Fleetsure Sections 2-7 HTML
+Fleetsure Sections 2-4 HTML (Streamlined & Intuitive)
 """
 
 def get_problem_html(C):
@@ -83,12 +83,10 @@ def get_shift_html(C):
     h2 = C['3. THE SHIFT']['H2']['content']
     content = C['3. THE SHIFT']['Content']['content']
     
-    # 5 rows
     rows_data = []
     for r in range(1, 6):
         raw = C['3. THE SHIFT'][f'Row {r}']['content']
         parts = [p.strip() for p in raw.split('|')]
-        # dim | Today: ... | Fleetsure: ...
         dim = parts[0]
         today = parts[1].replace('Today:', '').strip()
         fleetsure = parts[2].replace('Fleetsure:', '').strip()
@@ -185,139 +183,119 @@ def get_how_it_works_html(C):
           </div>
         """
 
-    # Preview screens for steps
+    # Clean, intuitive visual preview panels
     screens_html = """
       <!-- Screen 1: Upload -->
       <div class="preview-screen-content active" id="how-screen-1">
-        <div style="padding:16px; background:var(--surface); border-radius:8px; border:1px dashed var(--line-hover); text-align:center; margin-bottom:16px;">
-          <svg width="36" height="36" fill="none" stroke="var(--brand-light)" viewBox="0 0 24 24" style="margin:0 auto 10px;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
-          <div style="font-weight:700; color:var(--heading); font-size:14px;">Drop Vehicle &amp; Driver Documents Here</div>
-          <div style="font-size:12px; color:var(--muted); margin-top:4px;">Supports Bulk CSV, Excel, Scanned PDFs, RC Books &amp; Licences</div>
+        <div style="padding:24px 20px; background:var(--surface); border-radius:10px; border:1px dashed var(--line-hover); text-align:center; margin-bottom:20px;">
+          <svg width="40" height="40" fill="none" stroke="var(--brand-light)" viewBox="0 0 24 24" style="margin:0 auto 12px;"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
+          <div style="font-weight:700; color:var(--heading); font-size:15px;">Upload Vehicle &amp; Driver Documents</div>
+          <div style="font-size:12.5px; color:var(--muted); margin-top:4px;">Upload spreadsheets, scans, or PDFs once. Stored in encrypted cloud storage.</div>
         </div>
-        <div style="font-size:12.5px; font-weight:700; color:var(--heading); margin-bottom:10px;">Ingested Documents in Secure Cloud Vault:</div>
-        <div style="display:flex; flex-direction:column; gap:8px;">
-          <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 12px; background:var(--surface); border:1px solid var(--line); border-radius:6px; font-size:12px;">
-            <span>📄 RC_MH12RN4821_SmartCard.pdf</span>
-            <span class="status-pill valid">&bull; Verified</span>
+        <div style="font-size:13px; font-weight:700; color:var(--heading); margin-bottom:12px;">Tracked Document Records:</div>
+        <div style="display:flex; flex-direction:column; gap:10px;">
+          <div style="display:flex; justify-content:space-between; align-items:center; padding:11px 14px; background:var(--surface); border:1px solid var(--line); border-radius:6px; font-size:13px;">
+            <span>📄 RC &middot; Vehicle Registration</span>
+            <span class="status-pill valid">&bull; Stored &amp; Ready</span>
           </div>
-          <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 12px; background:var(--surface); border:1px solid var(--line); border-radius:6px; font-size:12px;">
-            <span>📄 Commercial_Insurance_ICICI_2026.pdf</span>
-            <span class="status-pill valid">&bull; Verified</span>
+          <div style="display:flex; justify-content:space-between; align-items:center; padding:11px 14px; background:var(--surface); border:1px solid var(--line); border-radius:6px; font-size:13px;">
+            <span>📄 Commercial Insurance Policy</span>
+            <span class="status-pill valid">&bull; Stored &amp; Ready</span>
           </div>
-          <div style="display:flex; justify-content:space-between; align-items:center; padding:10px 12px; background:var(--surface); border:1px solid var(--line); border-radius:6px; font-size:12px;">
-            <span>📄 Driver_Licence_Ramesh_Sarathi.pdf</span>
-            <span class="status-pill valid">&bull; Verified</span>
+          <div style="display:flex; justify-content:space-between; align-items:center; padding:11px 14px; background:var(--surface); border:1px solid var(--line); border-radius:6px; font-size:13px;">
+            <span>📄 Driver Licences &amp; PUC</span>
+            <span class="status-pill valid">&bull; Stored &amp; Ready</span>
           </div>
         </div>
       </div>
 
       <!-- Screen 2: Alert Rules -->
       <div class="preview-screen-content" id="how-screen-2">
-        <div style="font-weight:700; color:var(--heading); font-size:15px; margin-bottom:14px;">Alert Cadence &amp; Recipient Configuration</div>
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:16px;">
-          <div style="background:var(--surface); border:1px solid var(--line); padding:12px; border-radius:8px;">
-            <div style="font-size:11px; color:var(--muted); text-transform:uppercase;">Standard Reminders</div>
-            <div style="font-size:16px; font-weight:700; color:var(--brand-light); margin-top:4px;">30d &middot; 15d &middot; 7d</div>
+        <div style="font-weight:700; color:var(--heading); font-size:16px; margin-bottom:16px;">Standard Alert Cadence</div>
+        <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:10px; margin-bottom:20px;">
+          <div style="background:var(--surface); border:1px solid var(--line); padding:14px; border-radius:8px; text-align:center;">
+            <div style="font-size:11px; color:var(--muted); text-transform:uppercase;">1st Reminder</div>
+            <div style="font-size:20px; font-weight:800; color:#34D399; margin-top:4px;">30 Days</div>
           </div>
-          <div style="background:var(--surface); border:1px solid var(--line); padding:12px; border-radius:8px;">
-            <div style="font-size:11px; color:var(--muted); text-transform:uppercase;">Active Channels</div>
-            <div style="font-size:14px; font-weight:700; color:#34D399; margin-top:4px;">WhatsApp, Email, SMS</div>
+          <div style="background:var(--surface); border:1px solid var(--line); padding:14px; border-radius:8px; text-align:center;">
+            <div style="font-size:11px; color:var(--muted); text-transform:uppercase;">2nd Reminder</div>
+            <div style="font-size:20px; font-weight:800; color:#FBBF24; margin-top:4px;">15 Days</div>
+          </div>
+          <div style="background:var(--surface); border:1px solid var(--line); padding:14px; border-radius:8px; text-align:center;">
+            <div style="font-size:11px; color:var(--muted); text-transform:uppercase;">Urgent Notice</div>
+            <div style="font-size:20px; font-weight:800; color:#F87171; margin-top:4px;">7 Days</div>
           </div>
         </div>
-        <div style="display:flex; flex-direction:column; gap:10px; font-size:12.5px;">
-          <div style="padding:10px 14px; background:var(--surface); border:1px solid var(--line); border-radius:6px; display:flex; justify-content:space-between;">
-            <span>Fleet Manager (Central HQ)</span>
-            <span style="color:var(--brand-light); font-weight:600;">All Channels Enabled</span>
-          </div>
-          <div style="padding:10px 14px; background:var(--surface); border:1px solid var(--line); border-radius:6px; display:flex; justify-content:space-between;">
-            <span>Depot Leads (Pune, Mumbai, Delhi)</span>
-            <span style="color:var(--brand-light); font-weight:600;">WhatsApp &amp; Dashboard</span>
-          </div>
-          <div style="padding:10px 14px; background:var(--surface); border:1px solid var(--line); border-radius:6px; display:flex; justify-content:space-between;">
-            <span>Drivers &amp; Vehicle Operators</span>
-            <span style="color:var(--brand-light); font-weight:600;">SMS &amp; WhatsApp Reminder</span>
-          </div>
+        <div style="font-size:13px; font-weight:700; color:var(--heading); margin-bottom:10px;">Alert Delivery Channels:</div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <span class="tool-pill" style="color:var(--heading);">✓ WhatsApp Reminders</span>
+          <span class="tool-pill" style="color:var(--heading);">✓ Email Notifications</span>
+          <span class="tool-pill" style="color:var(--heading);">✓ In-App Dashboard Alerts</span>
         </div>
       </div>
 
       <!-- Screen 3: Verification Tracking -->
       <div class="preview-screen-content" id="how-screen-3">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px;">
-          <div style="font-weight:700; color:var(--heading); font-size:15px;">AI Compliance Tracking Agent</div>
-          <span class="status-pill valid">&bull; Live Validation</span>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <div style="font-weight:700; color:var(--heading); font-size:16px;">Government Record Checks</div>
+          <span class="status-pill valid">&bull; Verified</span>
         </div>
         <div style="background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:16px; margin-bottom:14px;">
-          <div style="display:flex; justify-content:space-between; font-size:12px; margin-bottom:6px;">
-            <span style="color:var(--muted);">Government Record Check:</span>
-            <span style="color:#34D399; font-weight:600;">Authenticated</span>
-          </div>
-          <div style="font-size:13.5px; font-weight:700; color:var(--heading);">MH-12-RN-4821 &middot; Tata Signa 4018.S</div>
-          <div style="font-size:11.5px; color:var(--muted); margin-top:4px;">Chassis: MA1...84732 &middot; Engine: 697TC...9120</div>
+          <div style="font-size:12px; color:var(--muted); margin-bottom:4px;">Official Registry Status:</div>
+          <div style="font-size:16px; font-weight:700; color:var(--heading);">MH-12-RN-4821</div>
+          <div style="font-size:12.5px; color:#34D399; margin-top:4px; font-weight:600;">✓ Authenticated against government records</div>
         </div>
-        <div style="display:flex; flex-direction:column; gap:8px; font-size:12px;">
-          <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px;">
+        <div style="display:flex; flex-direction:column; gap:8px; font-size:12.5px;">
+          <div style="display:flex; justify-content:space-between; padding:9px 12px; background:var(--surface); border-radius:6px;">
             <span>Registration (RC)</span>
-            <span style="color:#34D399; font-weight:600;">Valid till 14 Oct 2028</span>
+            <span style="color:#34D399; font-weight:600;">Valid</span>
           </div>
-          <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px;">
+          <div style="display:flex; justify-content:space-between; padding:9px 12px; background:var(--surface); border-radius:6px;">
             <span>Commercial Insurance</span>
-            <span style="color:#FBBF24; font-weight:600;">Expires in 7 days (15 Nov)</span>
+            <span style="color:#FBBF24; font-weight:600;">Expires in 7 days</span>
           </div>
-          <div style="display:flex; justify-content:space-between; padding:8px 12px; background:var(--surface); border-radius:6px;">
-            <span>Pollution Under Control (PUC)</span>
-            <span style="color:#34D399; font-weight:600;">Valid till 22 Feb 2027</span>
+          <div style="display:flex; justify-content:space-between; padding:9px 12px; background:var(--surface); border-radius:6px;">
+            <span>Driver Commercial DL</span>
+            <span style="color:#34D399; font-weight:600;">Valid</span>
           </div>
         </div>
       </div>
 
       <!-- Screen 4: Expiry Alerts -->
       <div class="preview-screen-content" id="how-screen-4">
-        <div style="font-weight:700; color:var(--heading); font-size:15px; margin-bottom:14px;">Multi-Channel Expiry Dispatch Stream</div>
-        <div style="background:rgba(37,99,235,0.08); border:1px solid rgba(37,99,235,0.3); border-radius:8px; padding:16px; margin-bottom:14px;">
-          <div style="display:flex; align-items:center; gap:8px; color:var(--brand-light); font-size:13px; font-weight:700; margin-bottom:6px;">
-            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.07-.996-.045-.506-.161-1.174-.473-2.023-1.218-.999-.877-1.636-1.954-1.802-2.222-.165-.268-.018-.413.118-.549.121-.121.268-.312.403-.468.135-.156.18-.268.27-.449.09-.18.045-.339-.023-.474-.067-.135-.6-1.444-.823-1.98-.217-.52-.438-.45-.6-.459-.156-.008-.337-.01-.518-.01-.18 0-.473.067-.72.339-.248.271-.945.926-.945 2.259 0 1.332.968 2.621 1.103 2.802.135.18 1.905 2.909 4.618 4.078.645.278 1.148.444 1.54.569.648.206 1.238.177 1.704.107.52-.078 1.6-1.654 1.825-1.294.225-.36.225-.668.158-.803-.067-.135-.248-.225-.518-.36z"></path></svg>
-            WhatsApp Alert &middot; Depot Lead Pune
+        <div style="font-weight:700; color:var(--heading); font-size:16px; margin-bottom:16px;">Automated Expiry Alert Dispatched</div>
+        <div style="background:rgba(37,99,235,0.1); border:1px solid rgba(37,99,235,0.35); border-radius:8px; padding:18px; margin-bottom:16px;">
+          <div style="display:flex; align-items:center; gap:8px; color:var(--brand-light); font-size:13.5px; font-weight:700; margin-bottom:8px;">
+            <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.312.045-.634.07-.996-.045-.506-.161-1.174-.473-2.023-1.218-.999-.877-1.636-1.954-1.802-2.222-.165-.268-.018-.413.118-.549.121-.121.268-.312.403-.468.135-.156.18-.268.27-.449.09-.18.045-.339-.023-.474-.067-.135-.6-1.444-.823-1.98-.217-.52-.438-.45-.6-.459-.156-.008-.337-.01-.518-.01-.18 0-.473.067-.72.339-.248.271-.945.926-.945 2.259 0 1.332.968 2.621 1.103 2.802.135.18 1.905 2.909 4.618 4.078.645.278 1.148.444 1.54.569.648.206 1.238.177 1.704.107.52-.078 1.6-1.654 1.825-1.294.225-.36.225-.668.158-.803-.067-.135-.248-.225-.518-.36z"></path></svg>
+            WhatsApp Reminder &middot; Pune Depot Lead
           </div>
-          <div style="font-size:12.5px; line-height:1.5; color:#E2E8F0;">
-            "Reminder: Insurance for <strong>MH-12-RN-4821</strong> expires in 7 days (15-Nov-2026). Policy renewal quote generated. Click below to confirm."
+          <div style="font-size:13.5px; line-height:1.6; color:#F1F5F9;">
+            "Reminder: Insurance for vehicle <strong>MH-12-RN-4821</strong> expires in 7 days (15-Nov-2026). Renewal quote is ready."
           </div>
         </div>
-        <div style="background:var(--surface); border:1px solid var(--line); border-radius:8px; padding:14px; font-size:12px; color:var(--text);">
-          <div style="font-weight:600; color:var(--heading); margin-bottom:4px;">Email Notification Sent to Compliance Officer:</div>
-          <div>Subject: [Fleetsure Action] 3 Vehicles Expiring in 15 Days &middot; Pune &amp; Delhi Depots</div>
+        <div style="font-size:13px; color:var(--muted); line-height:1.5;">
+          Reminders go out automatically so renewals become a planned task instead of an emergency at the yard.
         </div>
       </div>
 
       <!-- Screen 5: Status & Challans -->
       <div class="preview-screen-content" id="how-screen-5">
-        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:12px;">
-          <div style="font-weight:700; color:var(--heading); font-size:15px;">Unified Fleet Compliance &amp; Challans</div>
-          <span class="example-data-tag">All Depots Live</span>
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:16px;">
+          <div style="font-weight:700; color:var(--heading); font-size:16px;">Unified Compliance &amp; Challans</div>
+          <span class="status-pill valid">&bull; 136 / 148 Legal</span>
         </div>
-        <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:14px;">
-          <div style="background:var(--surface); border:1px solid var(--line); padding:10px; border-radius:6px; font-size:12px;">
-            <div style="color:var(--muted);">Active Fleet Compliance</div>
-            <div style="font-size:18px; font-weight:700; color:#34D399; margin-top:2px;">98.2% Legal</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-bottom:16px;">
+          <div style="background:var(--surface); border:1px solid var(--line); padding:14px; border-radius:8px;">
+            <div style="font-size:11.5px; color:var(--muted); text-transform:uppercase;">Compliance Rate</div>
+            <div style="font-size:22px; font-weight:800; color:#34D399; margin-top:2px;">97.3%</div>
           </div>
-          <div style="background:var(--surface); border:1px solid var(--line); padding:10px; border-radius:6px; font-size:12px;">
-            <div style="color:var(--muted);">State Challan Pool</div>
-            <div style="font-size:18px; font-weight:700; color:#F87171; margin-top:2px;">₹38,500 Total</div>
+          <div style="background:var(--surface); border:1px solid var(--line); padding:14px; border-radius:8px;">
+            <div style="font-size:11.5px; color:var(--muted); text-transform:uppercase;">Interstate Challans</div>
+            <div style="font-size:22px; font-weight:800; color:#F87171; margin-top:2px;">₹38,500</div>
           </div>
         </div>
-        <div style="font-size:12px; color:var(--muted); margin-bottom:6px;">Depot Health Summary:</div>
-        <div style="display:flex; flex-direction:column; gap:6px; font-size:12px;">
-          <div style="display:flex; justify-content:space-between; padding:6px 10px; background:var(--surface); border-radius:4px;">
-            <span>Pune North (42 Vehicles)</span>
-            <span style="color:#34D399; font-weight:600;">100% Legal</span>
-          </div>
-          <div style="display:flex; justify-content:space-between; padding:6px 10px; background:var(--surface); border-radius:4px;">
-            <span>Mumbai Trans-Port (38 Vehicles)</span>
-            <span style="color:#FBBF24; font-weight:600;">1 Expiring &middot; ₹4,500 Fines</span>
-          </div>
-          <div style="display:flex; justify-content:space-between; padding:6px 10px; background:var(--surface); border-radius:4px;">
-            <span>Delhi NCR (36 Vehicles)</span>
-            <span style="color:#34D399; font-weight:600;">97.2% Legal</span>
-          </div>
+        <div style="font-size:12.5px; color:var(--muted);">
+          Active and inactive vehicles are kept separate, so renewal effort goes exactly where it matters.
         </div>
       </div>
     """
@@ -372,5 +350,3 @@ def get_how_it_works_html(C):
     </div>
   </section>
     """
-
-print("Sections 2, 3, 4 ready.")

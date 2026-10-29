@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Main Builder: Combines all modules and generates index.html
+Main Builder: Combines all modules and generates index.html (No Header, No Footer, Streamlined)
 """
 
 import json
@@ -59,8 +59,6 @@ html_doc = f"""<!DOCTYPE html>
 </head>
 <body>
 
-  {sections_html.get_header_html()}
-
   <main>
     {sections_html.get_hero_html(C)}
     {sections_html_part1.get_problem_html(C)}
@@ -78,8 +76,6 @@ html_doc = f"""<!DOCTYPE html>
     {sections_html_part3.get_final_cta_html(C)}
   </main>
 
-  {sections_html_part3.get_footer_html(C)}
-
   {sections_html_part3.get_modals_html()}
 
   <script>
@@ -92,4 +88,4 @@ html_doc = f"""<!DOCTYPE html>
 with open('index.html', 'w', encoding='utf-8') as f:
     f.write(html_doc)
 
-print(f"Successfully generated index.html (size: {len(html_doc)} bytes)")
+print(f"Successfully generated streamlined index.html (size: {len(html_doc)} bytes)")

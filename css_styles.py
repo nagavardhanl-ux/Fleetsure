@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Fleetsure Design System CSS
-Adapted from the Foresprint reference design with tailored Fleetsure royal blue, emerald green, amber & crimson tokens.
+Fleetsure Design System CSS (Clean, Modern, Uncluttered)
 """
 
 def get_css():
@@ -85,7 +84,7 @@ def get_css():
     }
 
     h1 {
-      font-size: 44px;
+      font-size: 46px;
       letter-spacing: -0.025em;
     }
 
@@ -105,7 +104,7 @@ def get_css():
       color: var(--text);
     }
 
-    /* Common Buttons */
+    /* Buttons */
     .btn {
       display: inline-flex;
       align-items: center;
@@ -216,90 +215,9 @@ def get_css():
       color: var(--muted);
     }
 
-    /* Header */
-    .site-header {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      backdrop-filter: blur(16px);
-      background: rgba(8, 12, 22, 0.88);
-      border-bottom: 1px solid var(--line);
-    }
-
-    .header-container {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 72px;
-    }
-
-    .header-brand {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      text-decoration: none;
-    }
-
-    .brand-logo-icon {
-      width: 32px;
-      height: 32px;
-      border-radius: 8px;
-      background: linear-gradient(135deg, var(--brand), #3B82F6);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #FFF;
-      box-shadow: 0 0 14px var(--brand-glow);
-    }
-
-    .brand-product {
-      font-size: 21px;
-      font-weight: 800;
-      color: var(--heading);
-      letter-spacing: -0.02em;
-    }
-
-    .brand-product span {
-      color: var(--brand-light);
-    }
-
-    .brand-badge {
-      font-size: 11.5px;
-      padding: 3px 9px;
-      border-radius: 999px;
-      background: var(--brand-subtle);
-      color: var(--brand-light);
-      border: 1px solid rgba(37, 99, 235, 0.3);
-      font-weight: 600;
-    }
-
-    .header-nav {
-      display: flex;
-      align-items: center;
-      gap: 24px;
-    }
-
-    .nav-link {
-      color: var(--text);
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 500;
-      transition: color 0.15s;
-    }
-
-    .nav-link:hover {
-      color: var(--heading);
-    }
-
-    .header-actions {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-    }
-
     /* Section Base */
     section {
-      padding: 90px 0;
+      padding: 80px 0;
       position: relative;
     }
 
@@ -314,7 +232,7 @@ def get_css():
     }
 
     .section-header {
-      margin-bottom: 48px;
+      margin-bottom: 44px;
     }
 
     .section-header h2 {
@@ -329,7 +247,7 @@ def get_css():
 
     /* 1. HERO */
     .hero-section {
-      padding: 80px 0 100px;
+      padding: 80px 0 90px;
       background: radial-gradient(circle at 75% 25%, rgba(37, 99, 235, 0.12) 0%, transparent 60%);
     }
 
@@ -341,7 +259,7 @@ def get_css():
     }
 
     .hero-title {
-      font-size: 44px;
+      font-size: 46px;
       line-height: 1.15;
       font-weight: 800;
       color: var(--heading);
@@ -434,14 +352,13 @@ def get_css():
       gap: 8px;
     }
 
-    /* Hero Dashboard Console Inside */
     .hero-console-body {
-      padding: 20px;
+      padding: 24px;
     }
 
     .hero-metric-strip {
       display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      grid-template-columns: repeat(3, 1fr);
       gap: 12px;
       margin-bottom: 18px;
     }
@@ -462,8 +379,8 @@ def get_css():
     }
 
     .hero-metric-box .val {
-      font-size: 19px;
-      font-weight: 700;
+      font-size: 18px;
+      font-weight: 800;
       color: var(--heading);
     }
 
@@ -471,81 +388,14 @@ def get_css():
     .hero-metric-box.val-amber .val { color: var(--accent-amber); }
     .hero-metric-box.val-red .val { color: var(--accent-red); }
 
-    .console-depot-filter {
-      display: flex;
-      gap: 6px;
-      margin-bottom: 14px;
-      overflow-x: auto;
-      padding-bottom: 2px;
-    }
-
-    .depot-filter-pill {
-      font-size: 12px;
-      padding: 5px 12px;
-      border-radius: 6px;
-      background: var(--surface);
-      border: 1px solid var(--line);
-      color: var(--text);
-      cursor: pointer;
-      transition: all 0.15s;
-      white-space: nowrap;
-    }
-
-    .depot-filter-pill.active, .depot-filter-pill:hover {
-      background: var(--brand);
-      color: #FFF;
-      border-color: var(--brand-light);
-    }
-
-    .vehicle-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 12.5px;
-    }
-
-    .vehicle-table th {
-      text-align: left;
-      padding: 8px 10px;
-      color: var(--muted);
-      border-bottom: 1px solid var(--line);
-      font-weight: 600;
-      text-transform: uppercase;
-      font-size: 10.5px;
-      letter-spacing: 0.04em;
-    }
-
-    .vehicle-table td {
-      padding: 10px 10px;
-      border-bottom: 1px solid rgba(154, 161, 172, 0.08);
-      color: var(--text);
-      vertical-align: middle;
-    }
-
-    .vehicle-table tr:hover td {
-      background: rgba(37, 99, 235, 0.06);
-      cursor: pointer;
-    }
-
-    .veh-id {
-      font-weight: 700;
-      color: var(--heading);
-      letter-spacing: 0.02em;
-    }
-
-    .veh-sub {
-      font-size: 11px;
-      color: var(--muted);
-      display: block;
-    }
-
     /* Status Pills */
     .status-pill {
       display: inline-flex;
       align-items: center;
       gap: 5px;
-      font-size: 11px;
+      font-size: 11.5px;
       font-weight: 600;
-      padding: 3px 8px;
+      padding: 4px 9px;
       border-radius: 999px;
       white-space: nowrap;
     }
@@ -574,17 +424,11 @@ def get_css():
       background: rgba(245, 158, 11, 0.1);
       border: 1px solid rgba(245, 158, 11, 0.35);
       border-radius: 8px;
-      padding: 10px 14px;
+      padding: 12px 14px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       font-size: 12px;
-      animation: alertSlide 4s infinite alternate ease-in-out;
-    }
-
-    @keyframes alertSlide {
-      0% { transform: translateY(0); }
-      100% { transform: translateY(-2px); box-shadow: 0 4px 14px rgba(245, 158, 11, 0.15); }
     }
 
     .alert-left {
@@ -597,14 +441,14 @@ def get_css():
 
     .hero-challan-strip {
       margin-top: 14px;
-      padding: 9px 14px;
+      padding: 10px 14px;
       background: var(--surface);
       border-radius: 8px;
       border: 1px solid var(--line);
       display: flex;
       align-items: center;
       justify-content: space-between;
-      font-size: 11.5px;
+      font-size: 12px;
     }
 
     .challan-states-row {
@@ -618,6 +462,7 @@ def get_css():
       padding: 2px 7px;
       color: var(--heading);
       font-weight: 600;
+      font-size: 11.5px;
     }
 
     /* 2. THE PROBLEM */
@@ -891,9 +736,9 @@ def get_css():
       border: 1px solid var(--line);
       border-radius: 12px;
       overflow: hidden;
-      min-height: 480px;
+      min-height: 440px;
       position: sticky;
-      top: 100px;
+      top: 40px;
       box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
     }
 
@@ -1076,6 +921,7 @@ def get_css():
       background: linear-gradient(90deg, #10B981 0%, #F59E0B 70%, #EF4444 100%);
       border-radius: 4px;
       width: 85%;
+      transition: width 0.3s ease;
     }
 
     .timeline-marker {
@@ -1192,7 +1038,7 @@ def get_css():
     .challan-table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 12px;
+      font-size: 12.5px;
     }
 
     .challan-table th {
@@ -1206,7 +1052,7 @@ def get_css():
     }
 
     .challan-table td {
-      padding: 11px 14px;
+      padding: 12px 14px;
       border-bottom: 1px solid rgba(154, 161, 172, 0.07);
       color: var(--text);
     }
@@ -1355,7 +1201,7 @@ def get_css():
     }
 
     .dash-panel-body {
-      padding: 20px;
+      padding: 24px;
     }
 
     .dashboard-metrics-strip {
@@ -1369,7 +1215,7 @@ def get_css():
       background: var(--surface-card);
       border: 1px solid var(--line);
       border-radius: 10px;
-      padding: 18px 20px;
+      padding: 20px 22px;
     }
 
     .metric-panel-title {
@@ -1656,78 +1502,7 @@ def get_css():
       flex-wrap: wrap;
     }
 
-    /* Site Footer */
-    .site-footer {
-      background: #050811;
-      border-top: 1px solid var(--line);
-      padding: 60px 0 36px;
-      font-size: 14px;
-    }
-
-    .footer-grid {
-      display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr;
-      gap: 40px;
-      margin-bottom: 48px;
-    }
-
-    .footer-desc {
-      color: var(--muted);
-      font-size: 13.5px;
-      margin-top: 12px;
-      max-width: 340px;
-      line-height: 1.6;
-    }
-
-    .positioning-guard-pill {
-      display: inline-block;
-      margin-top: 16px;
-      padding: 8px 14px;
-      border-radius: 6px;
-      background: rgba(154, 161, 172, 0.08);
-      border: 1px solid var(--line);
-      color: var(--muted);
-      font-size: 12px;
-      line-height: 1.5;
-    }
-
-    .footer-col h4 {
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--heading);
-      margin-bottom: 16px;
-      text-transform: uppercase;
-      letter-spacing: 0.04em;
-    }
-
-    .footer-col ul {
-      list-style: none;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
-
-    .footer-col a {
-      color: var(--muted);
-      text-decoration: none;
-      transition: color 0.15s ease;
-    }
-
-    .footer-col a:hover {
-      color: var(--heading);
-    }
-
-    .footer-bottom {
-      border-top: 1px solid var(--line);
-      padding-top: 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      color: var(--muted);
-      font-size: 13px;
-    }
-
-    /* Modals */
+    /* Modal Backdrop */
     .modal-backdrop {
       position: fixed;
       top: 0;
@@ -1752,7 +1527,7 @@ def get_css():
       border: 1px solid var(--line-hover);
       border-radius: 14px;
       width: 100%;
-      max-width: 520px;
+      max-width: 500px;
       box-shadow: 0 24px 60px rgba(0, 0, 0, 0.8);
       overflow: hidden;
       animation: modalPop 0.25s cubic-bezier(0.16, 1, 0.3, 1);
@@ -1831,9 +1606,6 @@ def get_css():
       .included-grid {
         grid-template-columns: repeat(2, 1fr);
       }
-      .footer-grid {
-        grid-template-columns: 1fr 1fr;
-      }
       .how-preview-viewport {
         position: static;
         min-height: auto;
@@ -1843,7 +1615,6 @@ def get_css():
     @media (max-width: 768px) {
       h1 { font-size: 32px; }
       h2 { font-size: 26px; }
-      .header-nav { display: none; }
       .problem-cards-grid, .dashboard-2x2-grid, .config-cards-grid, .integration-cards-grid, .comp-strip {
         grid-template-columns: 1fr;
       }
@@ -1851,19 +1622,11 @@ def get_css():
         grid-template-columns: 1fr;
       }
       .hero-metric-strip, .dashboard-metrics-strip {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
       }
       .comp-header, .comp-row {
         grid-template-columns: 1fr;
         gap: 6px;
-      }
-      .footer-grid {
-        grid-template-columns: 1fr;
-      }
-      .footer-bottom {
-        flex-direction: column;
-        gap: 12px;
-        text-align: center;
       }
     }
   """
