@@ -1,0 +1,1024 @@
+{
+  "header": [
+    "Section",
+    "Element",
+    "Content",
+    "Layout / Design"
+  ],
+  "rows": [
+    [
+      "APPROVED STORYLINE",
+      "",
+      "",
+      "Reference only, not page copy. Every section below follows this story: fines pile up unseen, documents lapse, one system watches every vehicle and driver, alerts come before expiry, status is visible across depots, people act instead of chase."
+    ],
+    [
+      "APPROVED STORYLINE",
+      "Storyline",
+      "Running a fleet is hard enough, and keeping every vehicle legal on the road makes it harder. Fines are now issued by cameras and online systems, often without the driver or the company even knowing, and they keep piling up across every state a vehicle drives through. One expired document can stop a vehicle, cancel a trip or leave an accident without insurance cover. Still, most fleets track all of this by hand. Registration, insurance, licence and pollution certificates sit in different folders, expiry dates sit in spreadsheets, and someone checks challans one website at a time when they get a moment. Vendor and leased vehicles are even harder, because the company carries the risk but does not hold the papers. So renewals get missed, wrong licences slip through, and challans show up only when the bill is already big or a vehicle has been stopped. Fleetsure keeps all of it in one place. It stores every vehicle and driver document and checks each one against government records, so a fake or wrong document is caught early. It reminds the team before anything expires, so no vehicle runs on a lapsed paper. It brings challans from every state onto one screen, so fines are seen and paid before they grow. It treats vendor and leased vehicles the same as owned ones, and gives managers simple reports on where the fleet stands and how much it is spending on fines. Fleetsure does not replace the fleet team. It does the checking for them, so they only step in when something needs attention. With Fleetsure, a fleet knows every day that its vehicles are legal, and stops paying for fines it never saw coming.",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "",
+      "",
+      "Goes into page settings, not visible on the page"
+    ],
+    [
+      "SEO SETUP",
+      "URL",
+      "aiqod.com/fleetsure",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "Title tag",
+      "Fleetsure by AIQoD | Fleet Compliance and Challan Management Software",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "Meta description",
+      "Fleetsure by AIQoD tracks every vehicle and driver document, alerts you before expiry, and brings challans from every state onto one dashboard. Keep the whole fleet compliant and penalty-free.",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "OG title",
+      "Fleetsure by AIQoD | Never miss a fleet renewal or a challan again",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "OG description",
+      "AI-agent fleet compliance built on the AIQoD platform. Documents tracked, expiry alerts sent early, challans tracked across every state, on one dashboard.",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "Primary keyword",
+      "fleet compliance software (commercial intent, Indian fleet buyers searching document and challan tracking)",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "Secondary keywords",
+      "fleet compliance management · vehicle compliance management · challan management software · vehicle document management software · fleet document tracking · vehicle document expiry alerts",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "Supporting keywords",
+      "RC insurance PUC tracking · driver licence expiry tracking · road tax renewal · fleet compliance dashboard · multi-location fleet management · challan tracking across states",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "Terms checked and left out",
+      "Broad 'fleet management software' is dominated by GPS and telematics suites (Fleetx, FleetOnGo) and is a harder, less relevant intent. The page targets compliance and challan intent instead, where the product actually competes, and FAQ 2 states plainly that it is not a GPS or telematics suite.",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "Where keywords sit",
+      "Fleet compliance software: title, hero subline, FAQ 1. Challan management software and challan tracking: Section 2 card 3, Section 6 Tab 3, Section 8 and FAQ 7. Vehicle document management and document tracking: Section 4 steps 1 to 3, Section 6 Tab 1 and FAQ 4. Driver licence expiry and vehicle document expiry alerts: Section 4 step 4, Section 7 and FAQ 5. Compliance dashboard and multi-location: Section 9, Section 10 and FAQ 6.",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "Positioning guard",
+      "Fleetsure tracks compliance and challans. It is not a GPS, telematics or full fleet-operations suite, and needs no hardware fitted to vehicles. The page never calls it fleet management software in the telematics sense, and FAQ 2 says so plainly. Do not target 'GPS fleet tracking' or 'telematics' as keywords.",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "Internal links from this page",
+      "Section 9 'See how Fleetsure fits your systems' to /platform. Final CTA to /contact-us. Do not repeat homepage metric strips or platform stats on this page.",
+      ""
+    ],
+    [
+      "SEO SETUP",
+      "Schema",
+      "SoftwareApplication (name: Fleetsure, brand: AIQoD, applicationCategory: BusinessApplication, operatingSystem: Web, url: aiqod.com/fleetsure, description = meta description) plus FAQPage built from Section 13 word for word.",
+      ""
+    ],
+    [
+      "1. HERO",
+      "",
+      "",
+      "Split hero. Copy on the left. On the right an animated dashboard card that plays in a loop: a fleet list where document status chips flip from green to amber to red, an alert slides in ('Insurance expires in 7 days'), then a challan counter ticks up across state tags. Label as example data."
+    ],
+    [
+      "1. HERO",
+      "Eyebrow",
+      "Fleetsure by AIQoD",
+      ""
+    ],
+    [
+      "1. HERO",
+      "H1",
+      "Know every vehicle is legal before it leaves the yard",
+      ""
+    ],
+    [
+      "1. HERO",
+      "Subline",
+      "Fleetsure is fleet compliance software for operators running vehicles across states. Its AI agents track every vehicle and driver document, alert the team before anything expires, and bring challans from every state onto one dashboard. No renewal is missed and no fine goes unseen.",
+      ""
+    ],
+    [
+      "1. HERO",
+      "Primary CTA",
+      "Book a demo",
+      ""
+    ],
+    [
+      "1. HERO",
+      "Secondary CTA",
+      "Talk to our team",
+      ""
+    ],
+    [
+      "1. HERO",
+      "Trust line",
+      "Running with fleet operators today on the AIQoD platform.",
+      ""
+    ],
+    [
+      "2. THE PROBLEM",
+      "",
+      "",
+      "Full-width H2 and one intro line. Below, three cards in a row, each with an icon and a small tag at the bottom showing what it costs."
+    ],
+    [
+      "2. THE PROBLEM",
+      "H2",
+      "A fleet loses money on the compliance it never sees coming",
+      ""
+    ],
+    [
+      "2. THE PROBLEM",
+      "Intro",
+      "Fines are issued by cameras and online systems, often without the driver or the company knowing, and they add up across every state a vehicle travels through. One expired document can stop a vehicle, cancel a trip or leave an accident without cover.",
+      ""
+    ],
+    [
+      "2. THE PROBLEM",
+      "Card 1 - Heading",
+      "Documents tracked by hand go stale",
+      ""
+    ],
+    [
+      "2. THE PROBLEM",
+      "Card 1 - Content",
+      "Registration, insurance, licence and pollution papers sit in different folders, with expiry dates in a spreadsheet one person maintains. Renewals get missed and wrong documents slip through.",
+      ""
+    ],
+    [
+      "2. THE PROBLEM",
+      "Card 1 - Tag",
+      "Vehicles stopped, cover lost",
+      ""
+    ],
+    [
+      "2. THE PROBLEM",
+      "Card 2 - Heading",
+      "No single view across the fleet",
+      ""
+    ],
+    [
+      "2. THE PROBLEM",
+      "Card 2 - Content",
+      "Each depot tracks compliance its own way, so no one can see what is valid, expiring or already expired without asking around. Vendor and leased vehicles are hardest of all.",
+      ""
+    ],
+    [
+      "2. THE PROBLEM",
+      "Card 2 - Tag",
+      "Risk no one can see",
+      ""
+    ],
+    [
+      "2. THE PROBLEM",
+      "Card 3 - Heading",
+      "Challans surface too late",
+      ""
+    ],
+    [
+      "2. THE PROBLEM",
+      "Card 3 - Content",
+      "Fines have to be checked state by state, website by website, when someone finds the time. They are found only when the total is large or a vehicle is held.",
+      ""
+    ],
+    [
+      "2. THE PROBLEM",
+      "Card 3 - Tag",
+      "Paying fines seen too late",
+      ""
+    ],
+    [
+      "3. THE SHIFT",
+      "",
+      "",
+      "Dark full-width band. One large statement on the left. On the right a two-column comparison 'Today' vs 'Fleetsure' with five rows and a small icon per cell."
+    ],
+    [
+      "3. THE SHIFT",
+      "H2",
+      "One system watches every vehicle, every document and every challan",
+      ""
+    ],
+    [
+      "3. THE SHIFT",
+      "Content",
+      "Fleetsure puts the whole fleet under one watch. Its AI agents keep every vehicle and driver document in one place, check each one against government records, alert the team before anything expires, and bring challans from every state onto one dashboard. People see what needs action and act on it. Nothing depends on one person remembering.",
+      ""
+    ],
+    [
+      "3. THE SHIFT",
+      "Row 1",
+      "Document tracking | Today: folders and a spreadsheet one person keeps | Fleetsure: every document in one place, checked against government records",
+      ""
+    ],
+    [
+      "3. THE SHIFT",
+      "Row 2",
+      "Renewals | Today: found late, renewed in a panic | Fleetsure: alerts at 30, 15 and 7 days before expiry",
+      ""
+    ],
+    [
+      "3. THE SHIFT",
+      "Row 3",
+      "Fleet status | Today: ask each depot and wait | Fleetsure: one dashboard, green, amber and red, across every location",
+      ""
+    ],
+    [
+      "3. THE SHIFT",
+      "Row 4",
+      "Challans | Today: checked website by website, state by state | Fleetsure: pulled from every state onto one screen",
+      ""
+    ],
+    [
+      "3. THE SHIFT",
+      "Row 5",
+      "Vendor and leased vehicles | Today: risk carried, papers not held | Fleetsure: tracked the same as owned vehicles",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "",
+      "",
+      "Five numbered steps grouped under two labels shown as a slim bar above the steps: 'Set up once' (steps 1 to 2), 'Runs on its own' (steps 3 to 5). Desktop: sticky step list on the left, screenshot panel on the right that changes as the reader scrolls. Mobile: stacked cards with the screenshot under each step. Label screens as example data."
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "H2",
+      "How Fleetsure works, from first upload to a fleet that watches itself",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Static line",
+      "Documents are uploaded once, alert rules are set, and from then on the AI agents track validity, alert the team before expiry, show live status and pull challans across states.",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 1 - Heading",
+      "Upload vehicle and driver documents",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 1 - Content",
+      "Add registration, insurance, pollution certificate, road tax and driver licences for every vehicle, including vendor and leased ones. Documents are held in secure storage and can be pulled up any time.",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 1 - Panel",
+      "Document upload and secure storage screen",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 2 - Heading",
+      "Set the alert rules",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 2 - Content",
+      "Choose who hears about an upcoming expiry and how, by email, SMS or in-app alert. The standard cadence is 30, 15 and 7 days before each deadline.",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 2 - Panel",
+      "Alert rule configuration screen",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 3 - Heading",
+      "Documents are checked and tracked",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 3 - Content",
+      "The Compliance Tracking agent watches every document's validity and checks it against government records, so a wrong or fake document is caught before it causes trouble.",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 3 - Panel",
+      "Compliance tracking view with validity status",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 4 - Heading",
+      "Alerts go out before expiry",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 4 - Content",
+      "The Alert agent sends a reminder at 30, 15 and 7 days before a document expires, so renewals become a plan instead of an emergency and no vehicle runs on a lapsed paper.",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 4 - Panel",
+      "Expiry alert on email, SMS and dashboard",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 5 - Heading",
+      "Status and challans in one view",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 5 - Content",
+      "The Dashboard agent shows live compliance status across every vehicle, driver and depot, with challans pulled from every state onto the same screen. Active and inactive vehicles are kept separate, so effort goes where it matters.",
+      ""
+    ],
+    [
+      "4. HOW FLEETSURE WORKS",
+      "Step 5 - Panel",
+      "Fleet compliance and challan dashboard",
+      ""
+    ],
+    [
+      "5. SEE THE WHOLE FLEET AT A GLANCE",
+      "",
+      "",
+      "Two columns. Left: large product screenshot of the compliance dashboard with colour-coded status across a vehicle list. Right: H2, body and three short points with icons. Below, a slim comparison strip: 'Tracked on a spreadsheet' vs 'Tracked on Fleetsure'."
+    ],
+    [
+      "5. SEE THE WHOLE FLEET AT A GLANCE",
+      "H2",
+      "The whole fleet's compliance on one screen",
+      ""
+    ],
+    [
+      "5. SEE THE WHOLE FLEET AT A GLANCE",
+      "Content",
+      "Anyone can open Fleetsure and see what is valid, what is expiring and what has lapsed, across every vehicle, driver and depot. Colour-coded status makes it readable at a glance, and challans from every state sit on the same screen, so there is no checking website by website.",
+      ""
+    ],
+    [
+      "5. SEE THE WHOLE FLEET AT A GLANCE",
+      "Point 1",
+      "Green, amber and red status for every vehicle and driver",
+      ""
+    ],
+    [
+      "5. SEE THE WHOLE FLEET AT A GLANCE",
+      "Point 2",
+      "One view across every depot, region and business unit",
+      ""
+    ],
+    [
+      "5. SEE THE WHOLE FLEET AT A GLANCE",
+      "Point 3",
+      "Challans from every state on the same dashboard",
+      ""
+    ],
+    [
+      "5. SEE THE WHOLE FLEET AT A GLANCE",
+      "Comparison - Tracked on a spreadsheet",
+      "Dates in a file one person keeps. No one else can see status without asking, and a missed row becomes a stopped vehicle.",
+      ""
+    ],
+    [
+      "5. SEE THE WHOLE FLEET AT A GLANCE",
+      "Comparison - Tracked on Fleetsure",
+      "Live status for the whole fleet, visible to everyone who needs it, with alerts that reach the team before a deadline.",
+      ""
+    ],
+    [
+      "5. SEE THE WHOLE FLEET AT A GLANCE",
+      "Image alt text",
+      "Fleetsure compliance dashboard showing colour-coded document status across a fleet",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "",
+      "",
+      "Tabbed section with three tabs. Each tab: short paragraph on the left, four outcome bullets with check icons on the right, and a small screenshot strip below."
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "H2",
+      "One view for the teams that keep the fleet running and legal",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 1 - Label",
+      "Fleet managers",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 1 - H3",
+      "Vehicle document tracking that never sleeps",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 1 - Content",
+      "A fleet manager needs to know which vehicles are legal to run today and which are about to lapse. Fleetsure tracks every document, alerts ahead of expiry, and keeps active and inactive vehicles separate, so renewals are planned, not chased.",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 1 - Bullet 1",
+      "Always know which vehicles are legal to run today",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 1 - Bullet 2",
+      "Alerts 30, 15 and 7 days before expiry",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 1 - Bullet 3",
+      "Active and inactive vehicles tracked separately",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 1 - Bullet 4",
+      "Vendor and leased vehicles tracked the same as owned",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 2 - Label",
+      "Operations and compliance teams",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 2 - H3",
+      "One compliance view across every location",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 2 - Content",
+      "When each depot tracks compliance its own way, no one can see the whole picture. Fleetsure replaces a different tracker in every location with one live view, and keeps every document in secure, audit-ready storage.",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 2 - Bullet 1",
+      "One standard across every depot and region",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 2 - Bullet 2",
+      "Status visible without asking each location to report",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 2 - Bullet 3",
+      "Every document stored securely and ready for audit",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 2 - Bullet 4",
+      "Less time on manual tracking, more on operations",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 3 - Label",
+      "Finance and leadership",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 3 - H3",
+      "Challan management that catches fines early",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 3 - Content",
+      "Fines are a cost line that grows in the dark. Fleetsure pulls challans from every state onto one screen and reports what the fleet is spending on them, so fines are seen and settled before they add up.",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 3 - Bullet 1",
+      "Challans from every state in one place",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 3 - Bullet 2",
+      "Fines seen early, not after they pile up",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 3 - Bullet 3",
+      "Clear reporting on challan spend across the fleet",
+      ""
+    ],
+    [
+      "6. BUILT FOR THREE TEAMS",
+      "Tab 3 - Bullet 4",
+      "Fewer vehicles held back for an expired document",
+      ""
+    ],
+    [
+      "7. ALERTS BEFORE EXPIRY",
+      "",
+      "",
+      "Interactive block: a timeline on the left showing a document's expiry date, with three alert markers at 30, 15 and 7 days before. On the right a small stack of alert cards (email, SMS, in-app) that appear as the reader scrolls the timeline. Label as example data."
+    ],
+    [
+      "7. ALERTS BEFORE EXPIRY",
+      "H2",
+      "Renewals become a plan, not an emergency",
+      ""
+    ],
+    [
+      "7. ALERTS BEFORE EXPIRY",
+      "Content",
+      "Fleetsure reminds the team at 30, 15 and 7 days before any document expires, by email, SMS or in-app alert. There is time to renew calmly, and no vehicle ends up on the road with a lapsed paper.",
+      ""
+    ],
+    [
+      "7. ALERTS BEFORE EXPIRY",
+      "Interactive label",
+      "See when the alerts land",
+      ""
+    ],
+    [
+      "8. CHALLANS ON ONE SCREEN",
+      "",
+      "",
+      "Two columns. Left: H2 and body. Right: a dashboard panel (example data) showing challans grouped by state and by vehicle, with a running total. Label as example data."
+    ],
+    [
+      "8. CHALLANS ON ONE SCREEN",
+      "H2",
+      "Every challan, from every state, in one view",
+      ""
+    ],
+    [
+      "8. CHALLANS ON ONE SCREEN",
+      "Content",
+      "Fines are issued digitally and spread across the states a vehicle travels through, so they are easy to miss until the total is large. Fleetsure brings them together on one screen, grouped by state and by vehicle.",
+      ""
+    ],
+    [
+      "8. CHALLANS ON ONE SCREEN",
+      "Content 2",
+      "The team sees new challans as they appear, settles them before they grow, and can report challan spend across the whole fleet. Vendor and leased vehicles are covered the same way as owned ones.",
+      ""
+    ],
+    [
+      "9. WORKS WITH YOUR SYSTEMS AND YOUR TEAM",
+      "",
+      "",
+      "Layered diagram: 'Fleetsure' block sitting on top of 'Your current fleet and document systems' block, with a caption line under it."
+    ],
+    [
+      "9. WORKS WITH YOUR SYSTEMS AND YOUR TEAM",
+      "H2",
+      "Fits the systems you already run",
+      ""
+    ],
+    [
+      "9. WORKS WITH YOUR SYSTEMS AND YOUR TEAM",
+      "Content",
+      "Fleetsure does not replace the way your team already works. It connects with fleet systems, document stores, enterprise systems and messaging, reads what it needs to track and alert, and leaves your existing tools in place. Go live by uploading data, setting alert rules and switching on the dashboard. Nothing is ripped out and nothing is migrated.",
+      ""
+    ],
+    [
+      "9. WORKS WITH YOUR SYSTEMS AND YOUR TEAM",
+      "Diagram - Top block",
+      "Fleetsure: tracks, alerts, shows status and manages challans",
+      ""
+    ],
+    [
+      "9. WORKS WITH YOUR SYSTEMS AND YOUR TEAM",
+      "Diagram - Bottom block",
+      "Your current fleet and document systems: stay where they are",
+      ""
+    ],
+    [
+      "9. WORKS WITH YOUR SYSTEMS AND YOUR TEAM",
+      "Caption",
+      "Added on top. Nothing replaced.",
+      ""
+    ],
+    [
+      "9. WORKS WITH YOUR SYSTEMS AND YOUR TEAM",
+      "Link",
+      "See how Fleetsure fits your systems  (links to /platform)",
+      ""
+    ],
+    [
+      "10. WHAT YOU CAN SEE",
+      "",
+      "",
+      "Wide dashboard screenshot, or four panels in a 2 x 2 grid: fleet-wide status, documents expiring soon, challans by state, storage and audit history. Label it as example data."
+    ],
+    [
+      "10. WHAT YOU CAN SEE",
+      "H2",
+      "Status, expiries and challans in one place",
+      ""
+    ],
+    [
+      "10. WHAT YOU CAN SEE",
+      "Content",
+      "Alongside the live status board, Fleetsure shows what is expiring soon, challans grouped by state and vehicle, and a secure, searchable history of every document for audits.",
+      ""
+    ],
+    [
+      "10. WHAT YOU CAN SEE",
+      "Panel",
+      "Fleet status, expiries, challans and document history (example data)",
+      ""
+    ],
+    [
+      "11. BUILT FOR COMPLIANCE, NOT A GPS SUITE",
+      "",
+      "",
+      "Two contrasting cards side by side: 'GPS and telematics suites' (muted) and 'Fleetsure' (highlighted). Time to value line underneath in a slim strip."
+    ],
+    [
+      "11. BUILT FOR COMPLIANCE, NOT A GPS SUITE",
+      "H2",
+      "Built for compliance, not bolted onto a tracking suite",
+      ""
+    ],
+    [
+      "11. BUILT FOR COMPLIANCE, NOT A GPS SUITE",
+      "Card 1 - Heading",
+      "GPS and telematics suites",
+      ""
+    ],
+    [
+      "11. BUILT FOR COMPLIANCE, NOT A GPS SUITE",
+      "Card 1 - Content",
+      "In most fleet suites, document tracking is one small module behind GPS, fuel and maintenance. It means hardware on every vehicle and a long rollout to solve a problem that is really about paperwork and fines.",
+      ""
+    ],
+    [
+      "11. BUILT FOR COMPLIANCE, NOT A GPS SUITE",
+      "Card 2 - Heading",
+      "Fleetsure",
+      ""
+    ],
+    [
+      "11. BUILT FOR COMPLIANCE, NOT A GPS SUITE",
+      "Card 2 - Content",
+      "Fleetsure is built around compliance and challans, run by AI agents that track, alert, show status and manage fines. No hardware to fit, no telematics rollout. It can sit alongside a tracking suite you already use.",
+      ""
+    ],
+    [
+      "11. BUILT FOR COMPLIANCE, NOT A GPS SUITE",
+      "Time to value",
+      "Go live by uploading data, setting alert rules and switching on the dashboard. No hardware fitted to vehicles.",
+      ""
+    ],
+    [
+      "12. WHAT IS INCLUDED",
+      "",
+      "",
+      "Grid of eight tiles, 4 x 2 on desktop, 2 x 4 on mobile. Group them visually under three small labels: Track (first three tiles), Alert and see (next three), Manage (last two). Icon, heading, one line each."
+    ],
+    [
+      "12. WHAT IS INCLUDED",
+      "H2",
+      "What is included in Fleetsure",
+      ""
+    ],
+    [
+      "12. WHAT IS INCLUDED",
+      "Document tracking",
+      "RC, insurance, pollution certificate, road tax and driver licences tracked for every vehicle and driver",
+      ""
+    ],
+    [
+      "12. WHAT IS INCLUDED",
+      "Government record check",
+      "Documents checked against government records, so wrong or fake papers are caught early",
+      ""
+    ],
+    [
+      "12. WHAT IS INCLUDED",
+      "Secure storage",
+      "Every document held in secure, searchable storage and ready for audit",
+      ""
+    ],
+    [
+      "12. WHAT IS INCLUDED",
+      "Expiry alerts",
+      "Reminders at 30, 15 and 7 days before expiry by email, SMS or in-app alert",
+      ""
+    ],
+    [
+      "12. WHAT IS INCLUDED",
+      "Compliance dashboard",
+      "Live green, amber and red status across every vehicle, driver and depot",
+      ""
+    ],
+    [
+      "12. WHAT IS INCLUDED",
+      "Multi-location view",
+      "One compliance view across every depot, region and business unit",
+      ""
+    ],
+    [
+      "12. WHAT IS INCLUDED",
+      "Challan management",
+      "Challans pulled from every state onto one screen, grouped by state and vehicle",
+      ""
+    ],
+    [
+      "12. WHAT IS INCLUDED",
+      "Asset status tracking",
+      "Active and inactive vehicles kept separate, so renewal effort goes where it matters",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "",
+      "",
+      "Accordion. Add FAQPage schema using this exact text."
+    ],
+    [
+      "13. FAQ",
+      "H2",
+      "Frequently asked questions",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 1 - Question",
+      "What is Fleetsure?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 1 - Answer",
+      "Fleetsure is fleet compliance software by AIQoD. It tracks every vehicle and driver document, alerts the team before anything expires, shows live compliance status across every location, and brings challans from every state onto one dashboard. It is built on the AIQoD platform and run by AI agents, with people taking every renewal and payment action.",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 2 - Question",
+      "Is Fleetsure a GPS or telematics tool?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 2 - Answer",
+      "No. Fleetsure does not track vehicle location and needs no hardware fitted to vehicles. It is built around document compliance and challan management. It can sit alongside a GPS or telematics suite you already use.",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 3 - Question",
+      "Which documents can Fleetsure track?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 3 - Answer",
+      "Registration (RC), insurance, pollution certificate (PUC), road tax and driver licences, for every vehicle and driver in the fleet, including vendor and leased vehicles.",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 4 - Question",
+      "How does Fleetsure track vehicle documents?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 4 - Answer",
+      "Documents are uploaded once and held in secure storage. Fleetsure watches each one's validity, checks it against government records, and flags anything that is wrong, expiring or expired.",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 5 - Question",
+      "How do expiry alerts work?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 5 - Answer",
+      "Fleetsure sends a reminder at 30, 15 and 7 days before each document expires, by email, SMS or in-app alert, so renewals are planned ahead of the deadline rather than handled in a rush.",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 6 - Question",
+      "Can I see compliance across multiple locations?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 6 - Answer",
+      "Yes. One dashboard shows live, colour-coded status across every depot, region and business unit, so there is no separate tracker in each location and no need to ask each site to report.",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 7 - Question",
+      "How does challan management work?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 7 - Answer",
+      "Fleetsure pulls challans from every state onto one screen, grouped by state and by vehicle, with a running total. The team sees new fines early, settles them before they grow, and can report challan spend across the fleet.",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 8 - Question",
+      "Does Fleetsure handle vendor and leased vehicles?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 8 - Answer",
+      "Yes. Vehicles the company operates but does not own are tracked the same way as owned ones, for both document compliance and challans, so the risk they carry is visible.",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 9 - Question",
+      "Will Fleetsure disrupt how we work today?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 9 - Answer",
+      "No. It connects with the fleet, document, enterprise and messaging systems you already use, reads what it needs, and leaves your existing tools in place. Nothing is replaced or migrated.",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 10 - Question",
+      "How do we get started?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 10 - Answer",
+      "Upload your vehicle and driver data, set the alert rules, and switch on the dashboard. There is no hardware to fit to vehicles.",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 11 - Question",
+      "Who is Fleetsure for?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 11 - Answer",
+      "Fleet managers, operations and compliance teams, and finance and leadership, in logistics and transport, infrastructure operations, field services, construction and engineering, and any business running vehicles across more than one location.",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 12 - Question",
+      "Is our data secure?",
+      ""
+    ],
+    [
+      "13. FAQ",
+      "FAQ 12 - Answer",
+      "Documents are held in secure storage on the AIQoD platform, with access for the people who need it. Hosting and access details are shared during the demo.",
+      ""
+    ],
+    [
+      "14. FINAL CTA",
+      "",
+      "",
+      "Full-width band in brand colour. H2 centred, one line, two buttons."
+    ],
+    [
+      "14. FINAL CTA",
+      "H2",
+      "See Fleetsure track your fleet, alert on expiries and catch every challan",
+      ""
+    ],
+    [
+      "14. FINAL CTA",
+      "Content",
+      "Bring a sample of your fleet's vehicles. In twenty minutes, see Fleetsure track their documents, show live status and pull their challans onto one screen.",
+      ""
+    ],
+    [
+      "14. FINAL CTA",
+      "Primary CTA",
+      "Book a demo",
+      ""
+    ],
+    [
+      "14. FINAL CTA",
+      "Secondary CTA",
+      "Contact us  (links to /contact-us)",
+      ""
+    ],
+    [
+      "KEPT OFF THE PAGE UNTIL CONFIRMED",
+      "",
+      "",
+      "Not page copy. Add these only once confirmed."
+    ],
+    [
+      "KEPT OFF THE PAGE UNTIL CONFIRMED",
+      "Outcome numbers",
+      "The 70-90% less manual effort, 100% compliance and zero-penalty claims from the brochure are kept off until backed by a customer case. A number on a marketing page reads as a ceiling and invites challenge from procurement.",
+      ""
+    ],
+    [
+      "KEPT OFF THE PAGE UNTIL CONFIRMED",
+      "40% challan reduction",
+      "The approved 'one operator cut challan spend by 40% in 3 months' line is held back for campaigns, not the public page, per the decision to keep all numbers off this page. Add a customer quote or result block here once a named or 'one operator' case is signed off for web use.",
+      ""
+    ],
+    [
+      "KEPT OFF THE PAGE UNTIL CONFIRMED",
+      "Government auto-fetch (VAHAN / Sarathi)",
+      "A competitor advertises automatic document pull from the government VAHAN database and licence checks via Sarathi. The page says documents are 'checked against government records' but does not claim auto-fetch. Confirm with the product team before adding an auto-fetch claim.",
+      ""
+    ],
+    [
+      "KEPT OFF THE PAGE UNTIL CONFIRMED",
+      "Fitness certificate and permit tracking",
+      "Not listed on the current product page. Add to the tracked-documents list only once the product team confirms it is live.",
+      ""
+    ],
+    [
+      "KEPT OFF THE PAGE UNTIL CONFIRMED",
+      "Named integrations",
+      "The page says 'fleet, document, enterprise and messaging systems' without naming any. Add specific integration names once confirmed.",
+      ""
+    ],
+    [
+      "KEPT OFF THE PAGE UNTIL CONFIRMED",
+      "Pricing",
+      "No pricing section, pricing FAQ or /pricing link until final pricing is decided. (Working internal figure is around Rs 65-70 per vehicle per month, not for the page.)",
+      ""
+    ],
+    [
+      "KEPT OFF THE PAGE UNTIL CONFIRMED",
+      "Go-live time",
+      "The page says go-live is upload, set rules, switch on, but gives no timeline. Add a figure (for example 'live in a day') only once the product team confirms one.",
+      ""
+    ],
+    [
+      "KEPT OFF THE PAGE UNTIL CONFIRMED",
+      "Customer testimonial",
+      "Existing customers are willing to give a testimonial. Add a quote block in Section 5 or a new proof section once a quote is approved for web use. Prasanna Purple is never named externally; use 'one operator'.",
+      ""
+    ]
+  ]
+}

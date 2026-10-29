@@ -1,0 +1,118 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Fleetsure",
+      "brand": {
+        "@type": "Brand",
+        "name": "AIQoD"
+      },
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "url": "https://aiqod.com/fleetsure",
+      "description": "Fleetsure by AIQoD tracks every vehicle and driver document, alerts you before expiry, and brings challans from every state onto one dashboard. Keep the whole fleet compliant and penalty-free."
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Fleetsure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fleetsure is fleet compliance software by AIQoD. It tracks every vehicle and driver document, alerts the team before anything expires, shows live compliance status across every location, and brings challans from every state onto one dashboard. It is built on the AIQoD platform and run by AI agents, with people taking every renewal and payment action."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Fleetsure a GPS or telematics tool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Fleetsure does not track vehicle location and needs no hardware fitted to vehicles. It is built around document compliance and challan management. It can sit alongside a GPS or telematics suite you already use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which documents can Fleetsure track?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Registration (RC), insurance, pollution certificate (PUC), road tax and driver licences, for every vehicle and driver in the fleet, including vendor and leased vehicles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Fleetsure track vehicle documents?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Documents are uploaded once and held in secure storage. Fleetsure watches each one's validity, checks it against government records, and flags anything that is wrong, expiring or expired."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do expiry alerts work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fleetsure sends a reminder at 30, 15 and 7 days before each document expires, by email, SMS or in-app alert, so renewals are planned ahead of the deadline rather than handled in a rush."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I see compliance across multiple locations?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. One dashboard shows live, colour-coded status across every depot, region and business unit, so there is no separate tracker in each location and no need to ask each site to report."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does challan management work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fleetsure pulls challans from every state onto one screen, grouped by state and by vehicle, with a running total. The team sees new fines early, settles them before they grow, and can report challan spend across the fleet."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Fleetsure handle vendor and leased vehicles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Vehicles the company operates but does not own are tracked the same way as owned ones, for both document compliance and challans, so the risk they carry is visible."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will Fleetsure disrupt how we work today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. It connects with the fleet, document, enterprise and messaging systems you already use, reads what it needs, and leaves your existing tools in place. Nothing is replaced or migrated."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do we get started?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Upload your vehicle and driver data, set the alert rules, and switch on the dashboard. There is no hardware to fit to vehicles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Who is Fleetsure for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Fleet managers, operations and compliance teams, and finance and leadership, in logistics and transport, infrastructure operations, field services, construction and engineering, and any business running vehicles across more than one location."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is our data secure?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Documents are held in secure storage on the AIQoD platform, with access for the people who need it. Hosting and access details are shared during the demo."
+          }
+        }
+      ]
+    }
+  ]
+}
